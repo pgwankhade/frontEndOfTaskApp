@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Profile from './Profile'
 
 class Dailytask extends React.Component {
   constructor(props) {
