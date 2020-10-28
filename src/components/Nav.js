@@ -38,7 +38,7 @@ class Nav extends React.Component {
       <p className="dtc v-mid white link dim" >
       <img src={Logo1} className="dib w4 h3" alt="Site Name"/>
       </p>
-     <div className="f6 fw7 ttu tracked">
+     <div className=" nav2 f6 fw7 ttu tracked">
      <p className="link dim dark-blue f6 dib mr2 ml7" >Daily Tasks</p>
      <p onClick={this.onlogout} className=" tr pointer dark-blue f6 mt0 " >Log Out</p>
       </div>
