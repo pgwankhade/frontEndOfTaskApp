@@ -107,7 +107,7 @@ onSubmit =(event)=>{
   render() {
     return (
           <div> 
-             <div  className="flex items-center mt3 mw5 mw7-ns center bg-light-gray pa2 ph5-ns ">
+             <div  className="App flex items-center mt3 mw5 mw7-ns center bg-light-gray pa2 ph5-ns ">
                 <input
                   onChange={this.onTaskchange}
                   placeholder="add task.."
@@ -122,8 +122,10 @@ onSubmit =(event)=>{
                 className="ml2 mt2 f6 link dim ph3 pv2 mb2 dib white bg-dark-blue"
                 >Add</button>
               </div>
+      <div className="App3">
               {
                 this.state.task.map((item,i) =>(
+              <div className="App2">
                   <ul className="list pl0 mt0 measure center">
                   <li className="flex items-center lh-copy pa3 ph0-l bb b--black-10">
                   <div className="pl3 flex-auto">
@@ -134,8 +136,10 @@ onSubmit =(event)=>{
                   </div>
                  </li>
                  </ul>
+             </div>
                 ))
               }
+       </div>
     </div>
     );
   }
