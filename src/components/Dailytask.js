@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Dailytask.css'
 
 class Dailytask extends React.Component {
   constructor(props) {
