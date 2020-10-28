@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import './App.css';
 import Nav from "./components/Nav";
 import Dailytask from "./components/Dailytask"
-// import Profile from "./components/Profile"
 import Register from './components/Register';
 import LogIn from './components/LogIn'
 
