@@ -1,1 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@700&display=swap');
+@media only screen and (max-width: 731px) {
+    body {
+    background-image: url('photo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Cormorant Upright', serif;
+  
+    }
 
+    .App {
+        text-align: center;
+        font-family: cursive;
+        margin-right: 0%;
+      }
+
+     .App2{
+        margin-left: 8%;
+     }
+
+     .nav2{
+         margin-left: -55%;
+     }
+    
+  }
