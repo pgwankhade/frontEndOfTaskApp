@@ -107,7 +107,7 @@ onSubmit =(event)=>{
   render() {
     return (
           <div> 
-             <div  className="App flex items-center mt3 mw5 mw7-ns center bg-light-gray pa2 ph5-ns ">
+             <div className=" App flex items-center mt3 mw5 mw7-ns center bg-light-gray pa2 ph5-ns ">
                 <input
                   onChange={this.onTaskchange}
                   placeholder="add task.."
@@ -122,24 +122,28 @@ onSubmit =(event)=>{
                 className="ml2 mt2 f6 link dim ph3 pv2 mb2 dib white bg-dark-blue"
                 >Add</button>
               </div>
-      <div className="App3">
+              <div className="App3">
               {
                 this.state.task.map((item,i) =>(
-              <div className="App2">
-                  <ul className="list pl0 mt0 measure center">
-                  <li className="flex items-center lh-copy pa3 ph0-l bb b--black-10">
+                  <div className="App2">
+                    <ul className=" list pl0 mt0 measure center">
+                  <li className=" flex items-center lh-copy pa2 ph0-l bb b--black-10">
                   <div className="pl3 flex-auto">
                 <span className="f6 db black-70">{this.state.task[i].description}</span>
                   </div>
-                  <div>
-                  <button onClick={()=>this.deletetask(this.state.task[i]._id)} className="mr6 f6 pointer link dim ph3 pv2 mb2 dib white bg-dark-blue" type="button" id={i} value="task">Done</button>
+                  <div >
+                  <button onClick={()=>this.deletetask(this.state.task[i]._id)} className="mr4 f6 pointer link dim ph3 pv2 mb2 dib white bg-dark-blue" type="button" id={i} value="task">Done</button>
                   </div>
                  </li>
                  </ul>
-             </div>
+                  
+                  </div>
+                  
+                 
                 ))
               }
-       </div>
+              </div>
+             
     </div>
     );
   }
